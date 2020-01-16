@@ -1,0 +1,34 @@
+[18-May-2017 11:08:01 America/Denver] PHP Notice:  Undefined variable: csubject in /home2/srthemes/public_html/demo/redcaynne/contact_process.php on line 28
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/oauth.so' - /usr/php/54/usr/lib64/php/modules/oauth.so: undefined symbol: zval_used_for_init in Unknown on line 0
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[27-May-2017 18:02:20 UTC] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[27-May-2017 12:02:20 America/Denver] PHP Notice:  Undefined variable: csubject in /home2/srthemes/public_html/demo/redcaynne/contact_process.php on line 28
+[14-Jul-2017 06:16:05 America/Denver] PHP Notice:  Undefined variable: csubject in /home2/srthemes/public_html/demo/redcaynne/contact_process.php on line 28

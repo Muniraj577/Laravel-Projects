@@ -1,0 +1,32 @@
+/* Home Slider area css
+============================================================================================ */
+.slider_area{
+    .slider_inner{
+        .rev_slider{
+            .tp-revslider-mainul{
+                li{
+                    z-index: 5 !important;
+                    .slider_text_box{
+                        .bg_box{
+                            background: rgba(0, 0, 0, 0.8);
+                            height: 380px;
+                            width: 660px;
+                            position: relative;
+                            &:before{
+                                content: "";
+                                border: 1px solid $baseColor;
+                                width: 650px;
+                                height: 370px;
+                                position: absolute;
+                                left: 0px;
+                                top: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Home Slider area css
+============================================================================================ */
