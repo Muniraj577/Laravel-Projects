@@ -49,12 +49,12 @@ class DishController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-           'categories' => 'required',
-           'name' => 'required',
-           'description' => 'sometimes',
-           'price' => 'required',
-           'image' => 'required|mimes:jpeg,jpg,png|max:10000'
-        ]);
+         'categories' => 'required',
+         'name' => 'required',
+         'description' => 'sometimes',
+         'price' => 'required',
+         'image' => 'required|mimes:jpeg,jpg,png|max:10000'
+     ]);
         $image = $request->file('image');
         $slug = Str::slug($request->name);
         if (isset($image))
@@ -139,12 +139,12 @@ class DishController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request,[
-           'categories' => 'required',
-           'name' => 'required',
-           'description' => 'sometimes',
-           'price' => 'required',
-           'image' => 'required|mimes:jpeg,jpg,png|max:10000'
-        ]);
+         'categories' => 'required',
+         'name' => 'required',
+         'description' => 'sometimes',
+         'price' => 'required',
+         'image' => 'required|mimes:jpeg,jpg,png|max:10000'
+     ]);
         $dish = Dish::find($id);
         $image = $request->file('image');
         $slug = Str::slug($request->name);
