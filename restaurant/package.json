@@ -26,6 +26,6 @@
     },
     "dependencies": {
         "admin-lte": "^3.0.0-alpha.2",
-        "datatables.net": "^1.10.19"
+        "datatables.net": "^1.10.22"
     }
 }
